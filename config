@@ -27,7 +27,7 @@
         "max-length": 50
     },
     "clock": {
-        "timezone": "Asia/Dubai",
+        "timezone": "Europe/Helsinki",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d/%m/%Y}",
         "format": " {:%H:%M}"
@@ -67,4 +67,5 @@
         "on-click": "wlogout &",
         "format": "襤"
     }
+
 }
