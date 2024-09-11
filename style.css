@@ -40,7 +40,8 @@ window#waybar {
 #clock {
   padding: 0 4px;
   background: #282a36;
-  #taskbar button.active {
-    background-image: linear-gradient(0deg, #44475a, rgba(30, 31, 41, 230));
-  }
+}
+
+#taskbar button.active {
+  background-image: linear-gradient(0deg, #44475a, rgba(30, 31, 41, 230));
 }
