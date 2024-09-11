@@ -42,7 +42,8 @@
 #battery,
 #pulseaudio,
 #custom-lock,
-#custom-power {
+#custom-power,
+#temperature {
   background-color: @surface0;
   padding: 0.5rem 1rem;
   margin: 5px 0;
@@ -77,6 +78,11 @@
 
 #pulseaudio {
   color: @maroon;
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#temperature {
   border-radius: 1rem 0px 0px 1rem;
   margin-left: 1rem;
 }
