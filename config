@@ -4,7 +4,7 @@
     // "width": 1280, // Waybar width
     "modules-left": ["wlr/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["pulseaudio", "backlight", "battery", "clock", "temperature", "tray", "custom/lock", "custom/power"],
     "wlr/workspaces": {
          "disable-scroll": true,
          "sort-by-name": true,
@@ -66,6 +66,13 @@
         "tooltip": false,
         "on-click": "wlogout &",
         "format": "襤"
+    },
+    "temperature": {
+    // "thermal-zone": 2,
+    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    // "critical-threshold": 80,
+    // "format-critical": "{temperatureC}°C ",
+       "format": "{temperatureC}°C "
     }
 
 }
