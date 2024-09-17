@@ -1,4 +1,4 @@
-@import "mocha.css";
+@import "bw.css";
 
 * {
   font-family: FantasqueSansMono Nerd Font;
@@ -13,26 +13,26 @@
 }
 
 #workspaces {
-  border-radius: 1rem;
+  border-radius: 0px;
   margin: 5px;
   background-color: @simplegray;
   margin-left: 1rem;
 }
 
 #workspaces button {
-  color: @green;
-  border-radius: 1rem;
+  color: @gray;
+  border-radius: 0px;
   padding: 0.4rem;
 }
 
 #workspaces button.active {
   color: @yellow;
-  border-radius: 1rem;
+  border-radius: 0px;
 }
 
 #workspaces button:hover {
   color: @sapphire;
-  border-radius: 1rem;
+  border-radius: 0px;
 }
 
 #custom-music,
@@ -54,11 +54,11 @@
 }
 
 #battery {
-  color: @green;
+  color: @gray;
 }
 
 #battery.charging {
-  color: @green;
+  color: @gray;
 }
 
 #battery.warning:not(.charging) {
@@ -71,38 +71,38 @@
 
 #backlight,
 #battery {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 #pulseaudio {
   color: @peach;
-  border-radius: 1rem 0px 0px 1rem;
+  border-radius: 0px;
   margin-left: 1rem;
 }
 
 #temperature {
-  color: @green;
-  border-radius: 0px 1rem 1rem 0px;
+  color: @gray;
+  border-radius: 0px;
   margin-right: 1rem;
 }
 
 #custom-music {
-  color: @green;
-  border-radius: 1rem;
+  color: @gray;
+  border-radius: 0px;
 }
 
 #custom-lock {
-  border-radius: 1rem 0px 0px 1rem;
-  color: @green;
+  border-radius: 0px;
+  color: @gray;
 }
 
 #custom-power {
   margin-right: 1rem;
-  border-radius: 0px 1rem 1rem 0px;
+  border-radius: 0px;
   color: @peach;
 }
 
 #tray {
   margin-right: 1rem;
-  border-radius: 1rem;
+  border-radius: 0px;
 }
