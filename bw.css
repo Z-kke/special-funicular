@@ -1,0 +1,17 @@
+@define-color base   #000000; /* Deep black */
+@define-color mantle #1a1a1a; /* Darker gray */
+@define-color crust  #2e2e2e; /* Light gray */
+
+@define-color text     #ffffff; /* White for text */
+@define-color subtext0 #cccccc; /* Lighter gray for secondary text */
+@define-color subtext1 #999999; /* Even lighter gray */
+
+@define-color surface0 #333333; /* Dark gray for components */
+@define-color surface1 #444444; /* Medium gray for hover/active */
+@define-color surface2 #555555; /* Slightly lighter gray */
+
+@define-color overlay0 #666666; /* Gray for separators or overlays */
+@define-color overlay1 #777777;
+@define-color overlay2 #888888;
+
+@define-color simplegray #2c2c2c; /* Retain this shade of gray */
