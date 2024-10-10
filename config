@@ -4,7 +4,7 @@
     // "width": 1280, // Waybar width
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["pulseaudio", "backlight", "battery", "clock", "temperature", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["hyprland/language", "pulseaudio", "backlight", "battery", "clock", "temperature", "tray", "custom/lock", "custom/power"],
     "tray": {
         "icon-size": 21,
         "spacing": 10
@@ -65,6 +65,10 @@
     // "critical-threshold": 80,
     // "format-critical": "{temperatureC}°C ",
        "format": "{temperatureC}°C "
-    }
-
-}
+    },
+    "hyprland/language": {
+      "format": "{}",
+      "format-fi": "FI",
+      "format-en": "US",
+      }
+}, 
