@@ -4,7 +4,7 @@
     // "width": 1280, // Waybar width
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["custom/music"],
-    "modules-right": ["hyprland/language", "pulseaudio", "backlight", "battery", "clock", "temperature", "tray", "custom/lock", "custom/power"],
+    "modules-right": ["hyprland/language",  "custom/weather","pulseaudio", "backlight", "battery", "clock", "tray", "custom/lock", "custom/power"],
     "tray": {
         "icon-size": 21,
         "spacing": 10
@@ -59,16 +59,16 @@
         "on-click": "wlogout &",
         "format": "襤"
     },
-    "temperature": {
-    // "thermal-zone": 2,
-    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-    // "critical-threshold": 80,
-    // "format-critical": "{temperatureC}°C ",
-       "format": "{temperatureC}°C "
+    "custom/weather": {
+        "format": "{}°",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "wttrbar",
+        "return-type": "json"
     },
     "hyprland/language": {
-      "format": "{}",
-      "format-fi": "FI",
-      "format-en": "US",
-      }
+        "format": "{}",
+        "format-fi": "FI",
+        "format-en": "US",
+    }
 }, 
