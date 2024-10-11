@@ -43,7 +43,7 @@
 #pulseaudio,
 #custom-lock,
 #custom-power,
-#temperature {
+#custom-weather {
   background-color: @simplegray;
   padding: 0.5rem 1rem;
   margin: 5px 0;
@@ -74,16 +74,10 @@
   border-radius: 0px;
 }
 
-#pulseaudio {
+#custom-weather {
   color: @peach;
   border-radius: 0px;
   margin-left: 1rem;
-}
-
-#temperature {
-  color: @gray;
-  border-radius: 0px;
-  margin-right: 1rem;
 }
 
 #custom-music {
